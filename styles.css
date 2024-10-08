@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 0;
+    background-image: url('nyi.jpeg'); /* Ganti dengan nama file gambar kamu */
+    background-size: cover; /* Membuat gambar menutupi seluruh area */
+    background-position: center; /* Menjaga posisi gambar di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+#khodamImage {
+    display: none;
+    width: 200px;
+    margin-top: 10px;
+    background-color: #f0f0f0; /* Warna latar belakang */
+    padding: 10px;
+    border-radius: 10px; /* Membuat sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Memberikan bayangan */
+}
+
